@@ -1,0 +1,509 @@
+Por	SVILAR	Roma
+Por	MARTINEZ JO.	Inter
+Por	CARNESECCHI	Atalanta
+Por	BUTEZ	Como
+Por	VICARIO	Juventus
+Por	MAIGNAN	Milan
+Por	DE GEA	Fiorentina
+Por	MERET	Napoli
+Por	SKORUPSKI	Bologna
+Por	CAPRILE	Cagliari
+Por	DI GREGORIO	Juventus
+Por	MANDAS	Lazio
+Por	OKOYE	Udinese
+Por	BIJLOW	Genoa
+Por	FALCONE	Lecce
+Por	DAFFARA	Parma
+Por	MURIC	Sassuolo
+Por	PERIN	Juventus
+Por	STANKOVIC F.	Venezia
+Por	THIAM	Monza
+Por	MILINKOVIC-SAVIC V.	Napoli
+Por	PALMISANI	Frosinone
+Por	DESPLANCHES	Frosinone
+Por	PROVEDEL	Inter
+Por	SPORTIELLO	Atalanta
+Por	HAPPONEN	Bologna
+Por	PESSINA MAS.	Bologna
+Por	SHERRI	Cagliari
+Por	TORNQVIST	Como
+Por	VIGORITO	Como
+Por	CHRISTENSEN O.	Fiorentina
+Por	LEZZERINI	Fiorentina
+Por	LOLIC	Frosinone
+Por	SOMMARIVA	Genoa
+Por	STOLZ	Genoa
+Por	DI GENNARO	Inter
+Por	PINSOGLIO	Juventus
+Por	MOTTA	Lazio
+Por	RENZETTI	Lazio
+Por	TERRACCIANO	Milan
+Por	TORRIANI	Milan
+Por	PIZZIGNACCO	Monza
+Por	STRAJNAR	Monza
+Por	CONTINI	Napoli
+Por	CORVI	Parma
+Por	DE MARZI	Roma
+Por	GOLLINI	Roma
+Por	RUSSO A.	Sassuolo
+Por	TURATI	Sassuolo
+Por	MASCARDI	Torino
+Por	PALEARI	Torino
+Por	SIVIERO	Torino
+Por	PADELLI	Udinese
+Por	PIANA	Udinese
+Por	GRANDI	Venezia
+Por	POZZI	Venezia
+Por	VISMARA	Atalanta
+Por	SATALINO	Sassuolo
+Por	PENEV	Lecce
+Por	PISSERI	Frosinone
+Por	RADUNOVIC	Cagliari
+Por	MONTIPÒ	Venezia
+Por	BLEVE	Lecce
+E;W	DIMARCO	Inter
+E	MOLINA N.	Roma
+E	WESLEY	Roma
+Dc	AKANJI	Inter
+Dc	BREMER	Juventus
+Dc	MANCINI	Roma
+Dc	BASTONI	Inter
+Dc	PAVLOVIC	Milan
+Dc	RRAHMANI	Napoli
+Dd;Dc	KALULU	Juventus
+Dc	N'DICKA	Roma
+Dc	SOLET	Udinese
+Dc	STONES	Inter
+Dc	GILA	Milan
+Dd;E	DI LORENZO	Napoli
+E	SPENCE	Inter
+Dc	OSTIGARD	Genoa
+Dc	BISSECK	Inter
+Dc	SCALVINI	Atalanta
+Dc	RAMON	Como
+Dd;E	DODÒ	Fiorentina
+Dc	HERMOSO	Roma
+Ds;Dc	VASQUEZ	Genoa
+Dd;Ds;E	CAMBIASO	Juventus
+Dd;Dc	CHALOBAH T.	Como
+Dc	HIEN	Atalanta
+Dd;E	ZAPPACOSTA	Atalanta
+Dc	LUCUMÌ	Juventus
+Ds;E	MIRANDA J.	Bologna
+Dc	MINA	Cagliari
+Dc	DRAGUSIN	Fiorentina
+Dd;Ds;E	JIMENEZ A.	Fiorentina
+Dd;E	NORTON-CUFFY	Genoa
+B;Dd;E	CELIK	Juventus
+Ds;E	BARTESAGHI	Milan
+Ds;E	SPINAZZOLA	Napoli
+B;Dd;E	DELPRATO	Parma
+Ds;E	VALERI	Parma
+Dc	KOULIERAKIS	Roma
+Dd;E	VOJVODA	Udinese
+Dd;E	COUTO	Como
+B;Ds;E	OBERT	Cagliari
+Ds;E	KAIKI	Como
+B;Ds;E	CARLOS AUGUSTO	Inter
+Dc	DOEKHI	Lazio
+Dc	ROMAGNOLI	Lazio
+Dc	TIAGO GABRIEL	Lecce
+Dc	GABBIA	Milan
+Dc	TOMORI	Milan
+Dc	BUONGIORNO	Napoli
+Dc	IDZES	Sassuolo
+Dc	COCO	Torino
+Dc	ISMAJLI	Torino
+Dd;Dc	KRISTENSEN T.	Atalanta
+B;Ds;E	AHANOR	Atalanta
+Dd;E	BELLANOVA	Atalanta
+Ds;E	BERNASCONI	Atalanta
+Ds;Dc	HEGGEM	Bologna
+Dd;E	ZORTEA	Bologna
+Ds;E	VALLE	Como
+Ds;Dc	VALDEPENAS	Fiorentina
+Ds;Dc	VIERY	Fiorentina
+Dc	MONTERISI	Frosinone
+Dc	MARCANDALLI	Genoa
+Dd;Dc	PAVARD	Inter
+Ds;E	TAVARES N.	Lazio
+Dd;Ds;E	MARUSIC	Lazio
+Ds;E	GALLO	Lecce
+Ds;E	MANGAS	Monza
+Dc	BEUKEMA	Napoli
+Dc	COMUZZO	Torino
+Ds;E	KAMARA H.	Udinese
+Dc	BELLA-KOTCHAP	Venezia
+Ds;E	OBRADOR	Sassuolo
+Ds;Dc	KOLASINAC	Atalanta
+Dc	VITIK	Bologna
+Dd;E	HOLM	Bologna
+Dc	KOFLER	Cagliari
+Dd;Dc	ZÈ PEDRO	Cagliari
+Dc	KEMPF	Como
+Ds;E	PARISI	Fiorentina
+Ds;Dc	BRACAGLIA	Frosinone
+Dd;E	OYONO A.	Frosinone
+Ds;E	MARTIN	Genoa
+Ds;Dc	KELLY L.	Juventus
+Ds;E	PEDRAZA	Lazio
+Dc	GASPAR K.	Lecce
+Dd;E	VEIGA D.	Lecce
+B;Ds;E	OLIVERA	Napoli
+B;Dd;E	RENSCH	Roma
+Dd;E	PEDERSEN	Torino
+Dc	MORENO M.	Venezia
+Ds;E	HAPS	Venezia
+B;Dd;E	ZAPPA	Cagliari
+Dd;E	SMOLCIC I.	Como
+Dc	PONGRACIC	Fiorentina
+Dc	CALVANI	Frosinone
+Ds;E	MITAJ	Genoa
+Dc	GATTI	Juventus
+Dc	SIEBERT	Lecce
+Dc	DELLI CARRI	Monza
+Dc	LUCCHESI	Monza
+Dd;Ds;E	BIRINDELLI	Monza
+Dc	VALENTI	Parma
+Dc	GHILARDI	Roma
+Dd;Dc	WALUKIEWICZ	Sassuolo
+Ds;E	DOIG	Sassuolo
+Dc	COMERT	Torino
+Dc	KABASELE	Udinese
+Dd;Ds;Dc	BERTOLA	Udinese
+Dd;E	ZANOLI	Udinese
+Ds;E	ARIZALA	Udinese
+Dc	HALHAL	Venezia
+Dd;E	CORREIA T.	Venezia
+Ds;E	TERZIC	Frosinone
+Dd;Ds;E	FAVASULI	Napoli
+Dd;Dc	KOSSOUNOU	Atalanta
+Dc	CASALE	Bologna
+Ds;Dc	RODRIGUEZ JU.	Cagliari
+Ds;E	IDRISSI R.	Cagliari
+Ds;Dc	RANIERI L.	Fiorentina
+Dd;E	JOAO MARIO	Fiorentina
+Dc	AKPOGUMA	Frosinone
+Dc	CITTADINI	Frosinone
+Dc	PROVSTGAARD	Lazio
+Dd;E	FLORIANI MUSSOLINI	Lazio
+Dd;Dc	DE WINTER	Milan
+Ds;E	ESTUPINAN	Milan
+Dd;Dc	KOUADIO	Monza
+Ds;Dc	CARBONI A.	Monza
+Dc	TROILO	Parma
+Dd;Ds;E	BRITSCHGI	Parma
+Ds;Dc	CANDÈ	Sassuolo
+Dc	SCHINGTIENNE	Venezia
+Ds;Dc	SVERKO	Venezia
+Dd;E	HAINAUT	Venezia
+Dd;Dc	HELLAND	Bologna
+Ds;E	ALHASSANE	Bologna
+Dd;E	VAN DER BREMPT	Como
+Dc	OTOA	Genoa
+Ds;E	PUCZKA	Genoa
+Dd;Ds;E	SABELLI	Genoa
+Dd;E	LAZZARI	Lazio
+Ds;E	PELLEGRINI LU.	Lazio
+Dc	JEAN	Lecce
+Ds;Dc	DIAWARA S.	Milan
+Dc	MARIN R.	Napoli
+B;Ds;E	BIRAGHI	Torino
+Dc	PALMA	Udinese
+Ds;Dc	EBOSSE	Udinese
+B;Ds;E	FRANJIC	Venezia
+Dd;E	SAGRADO	Venezia
+Ds;E	AURELIO	Cagliari
+Dd;E	DE SILVESTRI	Bologna
+Dc	GOLDANIGA	Como
+Dc	AMEY	Frosinone
+Dc	GELLI J.	Frosinone
+Dd;E	OYONO J.	Frosinone
+Ds;E	CORRADO	Frosinone
+Ds;Dc	MATTURRO	Genoa
+Dc	RUGANI	Juventus
+B;Ds;E	CABAL	Juventus
+Dd;Dc	PATRIC	Lazio
+Ds;E	NDABA	Lecce
+Dc	ANTOV	Monza
+Dd;E	BAKOUNE	Monza
+Dc	MARIANUCCI	Napoli
+Dd;Ds;E	MAZZOCCHI	Napoli
+Dc	NDIAYE	Parma
+Ds;E	CARBONI F.	Parma
+Dc	ZIOLKOWSKI	Roma
+Dd;E	MISSORI	Sassuolo
+Ds;E	PIERAGNOLO	Sassuolo
+Dc	MLACIC	Udinese
+Dd;Dc	ABANKWAH	Udinese
+Ds;Dc	GOMES	Venezia
+Dc	OMAR FAYED	Frosinone
+T;A	PAZ N.	Como
+C;T	MCTOMINAY	Napoli
+M;C	CALHANOGLU	Inter
+W;A	ORSOLINI	Bologna
+T;A	PULISIC	Milan
+C;T	RABIOT	Milan
+T	BATURINA	Como
+T	MORA	Roma
+C;T	DA CUNHA	Como
+T;A	ZANIOLO	Udinese
+C;T	ATTA	Fiorentina
+C	BARELLA	Inter
+C	MCKENNIE	Juventus
+W;A	ZACCAGNI	Lazio
+T	DE BRUYNE	Napoli
+T	VLASIC	Torino
+T;A	GUDMUNDSSON A.	Fiorentina
+C;T	TAYLOR K.	Lazio
+M;C	EDERSON D.S.	Atalanta
+C;T	SAMARDZIC	Atalanta
+W;A	RODRIGUEZ JE.	Como
+W;T	ALAJBEGOVIC	Juventus
+W;A	CONCEICAO	Juventus
+M;C	MODRIC	Milan
+W;T	MASTANTUONO	Fiorentina
+W	MOREIRA	Milan
+W;T	ROWE	Bologna
+T	BALDANZI	Genoa
+C	ZAMBO ANGUISSA	Napoli
+M;C	PERRONE	Como
+C	ZIELINSKI	Inter
+C	THURAM K.	Juventus
+E;W	SAELEMAEKERS	Milan
+W	POLITANO	Napoli
+M;C	KONÈ M.	Roma
+C;T	THORSTVEDT	Sassuolo
+C;T	CASADEI	Torino
+C;T	EKKELENKAMP	Udinese
+C;T	PELLEGRINI LO.	Roma
+C;T	PASALIC	Atalanta
+W;T	BERNARDESCHI	Bologna
+C	MANDRAGORA	Fiorentina
+W;A	CANCELLIERI	Lazio
+W;A	ISAKSEN	Lazio
+C	KONÈ I.	Sassuolo
+T	ODGAARD	Bologna
+W;A	CAMBIAGHI	Bologna
+M;C	FAGIOLI	Fiorentina
+C	NDOUR	Fiorentina
+E;C	DIOUF	Inter
+C	SUCIC P.	Inter
+M;C	LOCATELLI	Juventus
+T	COLPANI	Monza
+W;T	VERGARA	Napoli
+M;C	CRISTANTE	Roma
+W;T	SCHMID	Frosinone
+M;C	GAETANO	Atalanta
+M;C	FERGUSON	Bologna
+C;T	FAZZINI	Cagliari
+M;C	CALÒ	Frosinone
+M;C	FRENDRUP	Genoa
+C;T	FRATTESI	Lazio
+M;C	PESSINA	Monza
+M;C	LOBOTKA	Napoli
+C	BERNABÈ	Parma
+W;T	VOLPATO	Sassuolo
+W;T	ORISTANIO	Torino
+T	UNAI GOMEZ	Udinese
+M;C	SOW	Genoa
+W	ZALEWSKI	Atalanta
+M;C	POBEGA	Bologna
+M;C	ADOPO	Cagliari
+M;C	WINKS	Cagliari
+C;T	CAQUERET	Como
+T	LIBERALI	Como
+M;C	OULAI	Fiorentina
+E;C	ELLERTSSON	Genoa
+W	ZHEGROVA	Juventus
+M;C	ROVELLA	Lazio
+M;C	COULIBALY L.	Lecce
+W	PIEROTTI	Lecce
+W	CHUKWUEZE	Milan
+C	AKINSANMIRO	Monza
+M;C	NICOLUSSI CAVIGLIA	Parma
+M;C	KARLSTROM	Udinese
+M;C	BASIC	Venezia
+M;C	AMONDARAIN	Bologna
+M;C	ROMANO	Cagliari
+W	FELICI	Cagliari
+M;C	MILLA	Como
+W;A	ADDAI	Como
+W	ZERBIN	Frosinone
+W;T	MEICHTRY	Genoa
+W;T	TRAORÈ HJ.	Genoa
+C	MKHITARYAN	Inter
+C;T	KOOPMEINERS	Juventus
+C;T	DELE-BASHIRU	Lazio
+C;T	BERISHA M.	Lecce
+C;T	GANDELMAN	Lecce
+M;C	FOFANA Y.	Milan
+M;C	KEITA M.	Parma
+C	PISILLI	Roma
+M;C	MATIC	Sassuolo
+C;T	ADZIC	Sassuolo
+C;T	BAKOLA	Sassuolo
+E;W	CACCIAMANI	Torino
+M;C	GINEITIS	Torino
+M;C	PIOTROWSKI	Udinese
+M;C	BUSIO	Venezia
+C	SOHM	Venezia
+C;T	PEREZ K.	Venezia
+M;C	GRILLITSCH	Frosinone
+M;C	DE ROON	Atalanta
+M;C	MORO N.	Bologna
+M;C	PRATI	Cagliari
+C;T	FABBIAN	Fiorentina
+M;C	CICHELLA	Frosinone
+C	KOUTSOUPIAS	Frosinone
+M;C	AMORIM	Genoa
+E;W	LUIS HENRIQUE	Inter
+C	DOUGLAS LUIZ	Juventus
+M;C	CATALDI	Lazio
+M;C	NGOM	Lecce
+M;C	RICCI S.	Milan
+C	JASHARI	Milan
+C;T	LOFTUS-CHEEK	Milan
+C;T	FOLORUNSHO	Napoli
+W;A	ALMQVIST	Parma
+M;C	EL AYNAOUI	Roma
+M;C	FITZ-JIM	Torino
+M;C	ILKHAN	Torino
+W;A	NJIE	Torino
+M;C	SULEMANA I.	Atalanta
+W;A	DOMINGUEZ B.	Sassuolo
+M;C	DEIOLA	Cagliari
+C;T	BRESCIANINI	Fiorentina
+C;T	GELLI F.	Frosinone
+W	FINI 	Frosinone
+W;T	MESSIAS	Genoa
+M;C	STANKOVIC A.	Inter
+C;T	MIRETTI	Juventus
+M;C	COLOMBO L.	Monza
+M;C	GILMOUR	Napoli
+C	SORENSEN O.	Parma
+W;A	DIALLO O.	Parma
+W;A	ABOUKHLAL	Torino
+M;C	MILLER L.	Udinese
+C;T	HELGASON	Venezia
+W;T	CISSÈ A.	Milan
+M;C	EL AZZOUZI O.	Bologna
+W	FADERA	Como
+C;T	HASA	Frosinone
+M;C	MASINI	Frosinone
+W	VENTURINO	Genoa
+M;C	MALEH	Lecce
+C;W	MUSAH	Milan
+E;W	CIURRIA	Monza
+M;C	ORDONEZ C.	Parma
+M;C	BOLOCA	Sassuolo
+M;C	LIPANI	Sassuolo
+W;T	CHAKVETADZE	Udinese
+C	DUNCAN	Venezia
+M;C	LITETA	Cagliari
+C;T	LAHDO	Como
+M;C	EL AZZOUZI A.	Frosinone
+C	KONE B.	Frosinone
+M;C	BELAHYANE	Lazio
+W;T	PRZYBOREK	Lazio
+M;C	GORTER	Lecce
+M;C	KABA	Lecce
+M;C	FOFANA SA.	Lecce
+E;C	CREMASCHI	Parma
+M;C	IANNONI	Sassuolo
+C	ILIC	Torino
+C;T	ANJORIN	Torino
+M;C	CAMARA A.	Udinese
+M;C	ZARRAGA	Udinese
+C	DAGASSO	Venezia
+W;T	FORSON O.	Monza
+Pc	MARTINEZ L.	Inter
+Pc	MALEN	Roma
+Pc	THURAM	Inter
+Pc	HOJLUND	Napoli
+Pc	RAMOS G.	Milan
+Pc	KOLO MUANI	Juventus
+Pc	KEAN	Fiorentina
+A	YILDIZ	Juventus
+Pc	DOUVIKAS	Como
+Pc	SCAMACCA	Atalanta
+Pc	DAVIS K.	Udinese
+Pc	KRSTOVIC	Atalanta
+A	LEAO	Milan
+A	BERARDI	Sassuolo
+A	DE KETELAERE	Atalanta
+Pc	DOVBYK	Bologna
+Pc	ESPOSITO F.P.	Inter
+Pc	PELLEGRINO M.	Fiorentina
+A	LAURIENTÈ	Sassuolo
+Pc	SIMEONE	Torino
+W;A	SANTOS A.	Napoli
+A	DYBALA	Roma
+Pc	CASTRO S.	Roma
+A	RASPADORI	Atalanta
+A	ESPOSITO SE.	Cagliari
+A	NKUNKU	Milan
+Pc	PINAMONTI	Sassuolo
+Pc	KEVIN CARLOS	Cagliari
+A	SOULÈ	Roma
+Pc	ADAMS A.	Venezia
+W;A	DIAO	Como
+Pc	COLOMBO	Genoa
+Pc	TOURÈ E.	Parma
+A	DIA	Lazio
+Pc	RATKOV	Lazio
+Pc	BOWIE	Sassuolo
+Pc	ROMERO D.	Parma
+W;A	GHEDJEMIS	Frosinone
+Pc	DAVID	Juventus
+Pc	GEUBBELS	Lecce
+Pc	CUTRONE	Monza
+A	ADAMS C.	Torino
+Pc	PICCOLI	Bologna
+A	VITINHA O.	Genoa
+A	YEBOAH J.	Venezia
+Pc	RRAHMANI AL.	Venezia
+Pc	RAIMONDO	Frosinone
+Pc	BONNY	Inter
+Pc	STULIC	Lecce
+Pc	ZAPATA D.	Torino
+A	SULEMANA K.	Atalanta
+Pc	MUTANDWA	Cagliari
+W;A	BOGA	Juventus
+A	NOSLIN	Lazio
+Pc	GIMENEZ	Milan
+W;A	NERES	Napoli
+T;A	MALDINI	Cagliari
+Pc	CAMARDA	Milan
+A	MOTA	Monza
+A	FRIGAN	Parma
+Pc	ADORANTE	Venezia
+Pc	MILIK	Juventus
+Pc	BORRELLI	Cagliari
+Pc	MENDY P.	Cagliari
+Pc	MORATA	Como
+W;A	KVERNADZE	Frosinone
+Pc	HAVEL	Genoa
+A	GIOVANE	Napoli
+Pc	KULENOVIC	Torino
+Pc	GUEYE	Udinese
+A	ROBINSON J.	Monza
+W;A	KUHN	Como
+A	EKHATOR	Juventus
+W;A	N'DRI	Lecce
+Pc	VARELA G.	Monza
+A	LANG	Napoli
+Pc	LUCCA	Napoli
+Pc	ELPHEGE	Parma
+Pc	PETAGNA	Monza
+Pc	BUKSA	Udinese
+A	ALBARRACIN	Cagliari
+Pc	TREPY	Cagliari
+Pc	AZON	Como
+Pc	VAZ	Roma
+Pc	MORO L.	Sassuolo
+Pc	BAYO V.	Udinese
+W;A	LISMAN	Venezia
+Pc	LAUBERBACH	Venezia
+A	LONTANI	Parma
+Pc	DE MARTIS	Parma

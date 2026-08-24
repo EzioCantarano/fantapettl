@@ -1,0 +1,184 @@
+<!-- ==========================================
+     INDEX.HTML - PARTE 1 DI 3
+     ========================================== -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FantaManager Serverless</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>FantaManager</h1>
+        <button id="btn-admin-login" onclick="apriAdmin()">Amministrazione</button>
+    </header>
+
+    <main>
+        <!-- VISTA UTENTE -->
+        <section id="vista-utente">
+            <div class="card" style="text-align: left; max-width: 600px; margin: 0 auto;">
+                <h2>Benvenuto nel FantaManager! ⚽</h2>
+                <p style="color: var(--text-muted); margin-top: 10px;">
+                    Seleziona una fanta-squadra per visualizzare la rosa o schierare la formazione sul campo.
+                </p>
+                <div style="margin-top: 20px;">
+                    <select id="user-select-fantasquadra" onchange="mostraRosaUtente()" style="width: 100%; background-color: var(--bg-card); color: white; padding: 12px; border-radius: 6px; border: 1px solid #334155; font-size: 1rem;">
+                        <option value="">📋 Seleziona la tua Fanta-Squadra...</option>
+                    </select>
+                </div>
+                
+                <!-- Tabella Rosa Utente Selezionata -->
+                <div id="container-rosa-utente" style="margin-top: 25px; display: none;">
+                    <h3 style="color: var(--primary); margin-bottom: 10px;" id="titolo-fantasquadra">Rosa</h3>
+                    <div class="table-container">
+                        <table id="tabella-rosa-utente">
+                            <thead>
+                                <tr>
+                                    <th>Ruoli</th>
+                                    <th>Calciatore</th>
+                                    <th>Squadra Serie A</th>
+                                    <th style="text-align: center;">Azione</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+<!-- ==========================================
+     INDEX.HTML - PARTE 2 DI 3
+     ========================================== -->
+                    <!-- SEZIONE ACQUISTI / SVINCOLATI -->
+                    <div id="box-aggiungi-giocatore" style="margin-top: 20px; padding: 15px; background: #0f172a; border: 1px dashed #334155; border-radius: 6px; margin-bottom: 30px;">
+                        <button onclick="mostraFormAcquisto()" style="background-color: var(--primary); width: 100%; font-size: 1.1rem; padding: 12px;">➕ Acquista Calciatore Svincolato</button>
+                        
+                        <div id="form-acquisto-calciatore" style="display: none; margin-top: 15px;">
+                            <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 5px;">Seleziona un calciatore libero:</label>
+                            <select id="select-svincolati" style="width: 100%; background-color: var(--bg-card); color: white; padding: 10px; border-radius: 6px; border: 1px solid #334155; font-size: 0.95rem; margin-bottom: 10px;"></select>
+                            <div style="display: flex; gap: 10px;">
+                                <button onclick="confermaAcquisto()" style="background-color: #2563eb; flex: 1;">Conferma Acquisto</button>
+                                <button onclick="nascondiFormAcquisto()" style="background-color: var(--danger);">Annulla</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SEZIONE: SCHIERAMENTO FORMAZIONE SUL CAMPO -->
+                    <div class="card" style="background-color: #1e293b; padding: 20px; border-radius: 8px; margin-top: 20px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">🛡️ Schiera la Formazione</h3>
+                        
+                        <label style="font-size: 0.9rem; color: var(--text-muted);">Scegli la Tattica:</label>
+                        <select id="select-tattica-utente" onchange="disegnaCampoGioco()" style="width: 100%; background-color: #0f172a; color: white; padding: 10px; border-radius: 6px; border: 1px solid #334155; font-size: 1rem; margin-top: 5px; margin-bottom: 20px;">
+                            <option value="">Seleziona Modulo...</option>
+                        </select>
+
+                        <!-- CAMPO DA GIOCO VIRTUALE -->
+                        <div id="campo-gioco" style="display: none; background-color: #064e3b; border: 3px solid white; border-radius: 8px; padding: 15px; display: flex; flex-direction: column; gap: 20px; box-shadow: inset 0 0 100px rgba(0,0,0,0.5);">
+                            <!-- Generato via JS -->
+                        </div>
+
+                        <!-- SEZIONE PANCHINA -->
+                        <div id="sezione-panchina" style="display: none; margin-top: 25px; padding-top: 20px; border-top: 1px solid #334155;">
+                            <h4 style="color: var(--primary); margin-bottom: 10px;">🪑 Panchina (Max 12 giocatori)</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 15px;">I giocatori già schierati come titolari o nei cambi precedenti spariranno automaticamente dalle opzioni.</p>
+                            
+                            <div id="container-selettori-panchina" style="display: flex; flex-direction: column; gap: 10px;">
+                                <!-- I 12 menu a tendina verticali verranno generati qui via JS -->
+                            </div>
+                        </div>
+
+                        <!-- SEZIONE: GENERA E INVIA FORM-DATA -->
+                        <div id="sezione-output-formazione" style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #334155; text-align: center;">
+                            <button onclick="generaEInviaFormazioneGrezza()" style="background-color: #2563eb; width: 100%; font-size: 1.1rem; padding: 14px; font-weight: bold; border-radius: 6px;">📥 Scarica File Formazione</button>
+                            
+                            <div id="box-anteprima-invio" style="display: none; margin-top: 15px;">
+                                <label style="display: block; font-size: 0.85rem; color: var(--text-muted); text-align: left; margin-bottom: 5px;">Testo copiato automaticamente negli appunti e scaricato:</label>
+                                <textarea id="txt-formazione-output" rows="8" style="width: 100%; background: #0f172a; color: #38bdf8; border: 1px solid #334155; padding: 10px; border-radius: 6px; font-family: monospace; font-size: 0.9rem;" readonly></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<!-- ==========================================
+     INDEX.HTML - PARTE 3 DI 3
+     ========================================== -->
+        <!-- VISTA AMMINISTRATORE -->
+        <section id="vista-admin" style="display: none;">
+            <div class="admin-header">
+                <h2>Pannello Controllo</h2>
+                <button style="background-color: var(--danger);" onclick="chiudiAdmin()">Esci</button>
+            </div>
+
+            <!-- CARICAMENTO CONFIGURAZIONI GITHUB -->
+            <div class="admin-details" style="margin-bottom: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
+                <button id="btn-carica-inizio" class="btn-sync" onclick="caricaDatiInizioStagione()" style="background-color: #8b5cf6; padding: 15px 20px; font-size: 1rem; flex: 1; min-width: 250px; font-weight: bold;">🚀 Carica dati inizio stagione (database.txt + rose.txt)</button>
+                <button id="btn-aggiorna-db" class="btn-sync" onclick="aggiornaSoloDatabase()" style="background-color: #2563eb; padding: 15px 20px; font-size: 1rem; flex: 1; min-width: 250px; font-weight: bold;">🔄 Aggiorna solo database (database.txt)</button>
+            </div>
+
+            <!-- DASHBOARD CONTATORI -->
+            <div class="Dashboard-admin">
+                <div class="card">
+                    <h3>Giocatori Totali</h3>
+                    <p id="cnt-giocatori">0</p>
+                </div>
+                <div class="card">
+                    <h3>Fanta-Squadre Iscritte</h3>
+                    <p id="cnt-fantasquadre-admin">0</p>
+                </div>
+                <div class="card">
+                    <h3>Giocatori Assegnati</h3>
+                    <p id="cnt-assegnati">0</p>
+                </div>
+                <div class="card">
+                    <h3>Tattiche Sistema</h3>
+                    <p id="cnt-tattiche-admin">0</p>
+                </div>
+            </div>
+
+            <!-- SEZIONE FILTRI -->
+            <div class="filters-container">
+                <input type="text" id="filter-nome" placeholder="🔍 Cerca calciatore..." oninput="applicaFiltri()">
+                <select id="filter-ruolo" onchange="applicaFiltri()"><option value="">🏃‍♂️ Tutti i Ruoli</option></select>
+                <select id="filter-squadra" onchange="applicaFiltri()"><option value="">🛡️ Tutte le Squadre SA</option></select>
+                <select id="filter-fantasquadra" onchange="applicaFiltri()"><option value="">🏆 Tutte le Fanta-Squadre</option></select>
+            </div>
+
+            <!-- LISTA DEI DATI -->
+            <div class="admin-details">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3>Lista Calciatori Globale (<span id="cnt-filtrati">0</span>)</h3>
+                    <div class="pagination-controls">
+                        <button id="btn-page-prev" onclick="cambiaPagina(-1)">◀ Indietro</button>
+                        <span id="info-pagina">Pagina 1 di 1</span>
+                        <button id="btn-page-next" onclick="cambiaPagina(1)">Avanti ▶</button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="tabella-giocatori">
+                        <thead>
+                            <tr>
+                                <th>Ruoli</th>
+                                <th>Calciatore</th>
+                                <th>Squadra SA</th>
+                                <th>Fanta-Squadra</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- SCRIPT SEPARATI ORDINATI -->
+    <script src="database-iniziale.js"></script>
+    <script src="parsing-dati.js"></script>
+    <script src="interfaccia-admin.js"></script>
+    <script src="interfaccia-campo.js"></script>
+    <script src="interfaccia-formazione.js"></script>
+    <script src="interfaccia-output.js"></script>
+</body>
+</html>
